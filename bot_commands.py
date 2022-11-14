@@ -26,7 +26,7 @@ def program_command(update: Update, context: CallbackContext):
     res_str += "Деление /div\n"
     res_str += "Посмотреть log /log\n"
     res_str += "Завершить работу калькутлятора /cancel\n"
-    res_str += "Комплексное число следует записывать через пробел Real Imag, числа разделяйте пробелом" 
+    res_str += "Комплексное число следует записывать через пробел Real Imag, перед вводом второго числа нажмите Enter" 
     update.message.reply_text(res_str)
 
 
