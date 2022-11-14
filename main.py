@@ -3,7 +3,7 @@ from telegram.ext import Updater, Filters, CommandHandler, MessageHandler, Callb
 from bot_commands import *
 
 
-updater = Updater("5605526481:AAG9tx5MzA09nYUkPHA8Z_zkPtrpzmdg42M")
+updater = Updater("YOUR TOKEN")
 
 updater.dispatcher.add_handler(CommandHandler('start', start_command))
 updater.dispatcher.add_handler(CommandHandler('program', program_command))
