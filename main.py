@@ -11,6 +11,7 @@ updater.dispatcher.add_handler(CommandHandler('sum', sum_command))
 updater.dispatcher.add_handler(CommandHandler('sub', sub_command))
 updater.dispatcher.add_handler(CommandHandler('mul', mul_command))
 updater.dispatcher.add_handler(CommandHandler('div', div_command))
+updater.dispatcher.add_handler(CommandHandler('log', read_data))
 updater.dispatcher.add_handler(CommandHandler('cancel', cancel_command))
 
 
